@@ -1,22 +1,9 @@
-<h1>Carmagnola Lucas Clase 1</h1>
-
-<!-- BOTONES DE NAVEGACION -->
-<!-- <button routerLink="bindeos">Bindeos</button>
-<button routerLink="login">Login</button> -->
- <!-- componentes -->
-  <!-- <app-login></app-login> -->
-<p>Ingrese una edad</p>
-<input id="edad1" [(ngModel)]="edad1" type="number"/><br>
-<p>Ingrese otra edad</p>
-<input id="edad2" [(ngModel)]="edad2" type="number"/><br><br>
-
-<button (click)="mostrarResultados()">Calcular</button>
-<button (click)="limpiarCampos()">Limpar campos</button><br><br>
-
-<p>Suma de edades</p>
-<input type="text" id="suma"><br>
-<p>Promedio de edades</p>
-<input type="text" id="promedio">
+<nav>
+  <button routerLink="bienvenida">Inicio</button>
+  <button routerLink="bindeos">Bindeos</button>
+  <button routerLink="auth">Auth</button>
+  <button routerLink="edades">Calcular Edades</button>
+</nav>
 
 
-  <router-outlet />
+<router-outlet />
